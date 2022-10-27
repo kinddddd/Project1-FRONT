@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="createMovie.js" defer></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="./index.html">ALL MOVIES</a>
+            <a href="./getMovie.html">GET MOVIE</a>
+            <a href="./deleteMovie.html">DELETE MOVIE</a>
+        </nav>
+    
+        <div class="formItem">
+            <label> Title: </label>
+            <input type="text" class="title"/>
+        </div>
+    
+        <div class="formItem">
+            <label>Imagen: </label>
+            <input type="text" class="img"/>
+        </div>
+    
+        <div class="formItem">
+            <label> Director: </label>
+            <input type="text" class="director"/>
+        </div>
+    
+        <div class="formItem">
+            <label>Year: </label>
+            <input type="number" class="year">
+        </div>
+    
+        <div class="formItem">
+            <label>Genre: </label>
+            <select class="genre">
+                <option value="Acción">Acción</option>
+                <option value="Animación">Animación</option>
+                <option value="Comedia romántica">Comedia romántica</option>
+                <option value="Ciencia ficción">Ciencia ficción</option>
+            </select>
+        </div>
+        <button class="enviar">ENVIAR NUEVA PELÍCULA</button>
+    </main>
+</body>
+</html>
